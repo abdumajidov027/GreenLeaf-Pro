@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GreenLeaf Pro</title>
+
+    <meta name="description" content="GreenLeaf Uzbekistan rasmiy mahsulotlari">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+<div class="container">
+
+<a href="index.html" class="logo">
+
+Green<span>Leaf</span>
+
+</a>
+
+<nav>
+
+<ul>
+
+<li>
+
+<a class="active" href="index.html">
+
+Bosh sahifa
+
+</a>
+
+</li>
+
+<li>
+
+<a href="products.html">
+
+Mahsulotlar
+
+</a>
+
+</li>
+
+<li>
+
+<a href="about.html">
+
+Biz haqimizda
+
+</a>
+
+</li>
+
+<li>
+
+<a href="contact.html">
+
+Bog'lanish
+
+</a>
+
+</li>
+
+</ul>
+
+</nav>
+
+<div class="header-buttons">
+
+<a href="admin/login.html" class="admin-btn">
+
+<i class="fa-solid fa-user"></i>
+
+Admin
+
+</a>
+
+<button id="menuBtn">
+
+<i class="fa-solid fa-bars"></i>
+
+</button>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+<div class="container hero-container">
+
+<div class="hero-left">
+
+<h1>
+
+GreenLeaf bilan
+Sog'lom Hayot
+
+</h1>
+
+<p>
+
+Original GreenLeaf mahsulotlari,
+qulay narxlar va professional xizmat.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="products.html" class="btn">
+
+Mahsulotlarni ko'rish
+
+</a>
+
+<a href="contact.html" class="btn-outline">
+
+Bog'lanish
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<img src="images/banner.png"
+alt="GreenLeaf Banner">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========= 2-QISM SHU YERDAN BOSHLANADI ========= -->
+ <!-- ================= PRODUCTS ================= -->
+
+<section class="products" id="products">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>GreenLeaf</span>
+
+            <h2>
+
+                Mashhur Mahsulotlar
+
+            </h2>
+
+            <p>
+
+                Eng ko'p xarid qilinayotgan GreenLeaf mahsulotlari
+
+            </p>
+
+        </div>
+
+        <!-- SEARCH -->
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Mahsulot qidirish...">
+
+        </div>
+
+        <!-- CATEGORIES -->
+
+        <div class="categories">
+
+            <button class="category active">
+
+                Hammasi
+
+            </button>
+
+            <button class="category">
+
+                Vitaminlar
+
+            </button>
+
+            <button class="category">
+
+                Immunitet
+
+            </button>
+
+            <button class="category">
+
+                Go'zallik
+
+            </button>
+
+            <button class="category">
+
+                Yurak
+
+            </button>
+
+        </div>
+
+        <!-- PRODUCTS -->
+
+        <div id="productList" class="product-grid">
+
+            <!-- JavaScript mahsulotlarni shu yerga chiqaradi -->
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FEATURES ================= -->
+
+<section class="features">
+
+    <div class="container">
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-truck-fast"></i>
+
+            <h3>
+
+                Tez Yetkazib Berish
+
+            </h3>
+
+            <p>
+
+                O'zbekiston bo'ylab.
+
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-shield-heart"></i>
+
+            <h3>
+
+                Original Mahsulot
+
+            </h3>
+
+            <p>
+
+                100% GreenLeaf mahsulotlari.
+
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-award"></i>
+
+            <h3>
+
+                Sifat Kafolati
+
+            </h3>
+
+            <p>
+
+                Premium sifat.
+
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-headset"></i>
+
+            <h3>
+
+                24/7 Yordam
+
+            </h3>
+
+            <p>
+
+                Har doim bog'lanishingiz mumkin.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========= 3-QISM SHU YERDAN BOSHLANADI ========= -->
+ <!-- ================= ABOUT ================= -->
+
+<section class="about">
+
+    <div class="container about-container">
+
+        <div class="about-image">
+
+            <img src="images/about.png" alt="GreenLeaf">
+
+        </div>
+
+        <div class="about-content">
+
+            <span>Biz haqimizda</span>
+
+            <h2>GreenLeaf bilan sog'lom hayot sari</h2>
+
+            <p>
+
+                GreenLeaf kompaniyasi dunyoning ko'plab davlatlarida
+                tabiiy mahsulotlari bilan mashhur. Biz sizga original
+                mahsulotlar, qulay narxlar va professional xizmatni
+                taqdim etamiz.
+
+            </p>
+
+            <ul class="about-list">
+
+                <li><i class="fa-solid fa-check"></i> 100% Original mahsulot</li>
+
+                <li><i class="fa-solid fa-check"></i> Tez yetkazib berish</li>
+
+                <li><i class="fa-solid fa-check"></i> Doimiy mijozlarga chegirma</li>
+
+                <li><i class="fa-solid fa-check"></i> Professional maslahat</li>
+
+            </ul>
+
+            <a href="about.html" class="btn">
+
+                Batafsil
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= STATISTICS ================= -->
+
+<section class="stats">
+
+    <div class="container stats-grid">
+
+        <div class="stat-card">
+
+            <h2>5000+</h2>
+
+            <p>Mamnun mijoz</p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h2>150+</h2>
+
+            <p>Mahsulot</p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h2>5+</h2>
+
+            <p>Yillik tajriba</p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h2>24/7</h2>
+
+            <p>Qo'llab-quvvatlash</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CALL TO ACTION ================= -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>
+
+            GreenLeaf mahsulotlarini hoziroq buyurtma qiling
+
+        </h2>
+
+        <p>
+
+            Sog'lom hayot sari birinchi qadamingizni bugun boshlang.
+
+        </p>
+
+        <a href="products.html" class="btn">
+
+            Xarid qilish
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ========= 4-QISM SHU YERDAN BOSHLANADI ========= -->
+ <!-- ================= TESTIMONIALS ================= -->
+
+<section class="testimonials">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>Fikrlar</span>
+
+            <h2>Mijozlarimiz nima deydi?</h2>
+
+        </div>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card">
+
+                <img src="images/user1.jpg" alt="User">
+
+                <h3>Azizbek</h3>
+
+                <p>
+
+                    "Mahsulot sifati juda zo'r.
+                    Yetkazib berish ham tez bo'ldi."
+
+                </p>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <img src="images/user2.jpg" alt="User">
+
+                <h3>Madina</h3>
+
+                <p>
+
+                    "Original mahsulot.
+                    Albatta yana buyurtma beraman."
+
+                </p>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <img src="images/user3.jpg" alt="User">
+
+                <h3>Jasur</h3>
+
+                <p>
+
+                    "Narxi ham yaxshi.
+                    Xizmat juda professional."
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h2 class="logo">
+
+                Green<span>Leaf</span>
+
+            </h2>
+
+            <p>
+
+                Original GreenLeaf mahsulotlari,
+                sifat va ishonch kafolati.
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Sahifalar</h3>
+
+            <ul>
+
+                <li><a href="index.html">Bosh sahifa</a></li>
+
+                <li><a href="products.html">Mahsulotlar</a></li>
+
+                <li><a href="about.html">Biz haqimizda</a></li>
+
+                <li><a href="contact.html">Bog'lanish</a></li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h3>Bog'lanish</h3>
+
+            <p>📞 +998 90 123 45 67</p>
+
+            <p>📧 info@greenleaf.uz</p>
+
+            <p>📍 Samarqand, O'zbekiston</p>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 GreenLeaf Pro.
+        Barcha huquqlar himoyalangan.
+
+    </div>
+
+</footer>
+
+<!-- WhatsApp -->
+
+<a href="#" class="whatsapp">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+<!-- Back To Top -->
+
+<button id="topBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<!-- JavaScript -->
+
+<script src="js/data.js"></script>
+<script src="js/search.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
