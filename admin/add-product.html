@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mahsulot qo'shish</title>
+
+<link rel="stylesheet" href="../css/admin.css">
+
+</head>
+
+<body>
+
+<div class="add-product-container">
+
+<h1>Yangi mahsulot qo'shish</h1>
+
+<form id="productForm">
+
+<input
+type="text"
+id="name"
+placeholder="Mahsulot nomi"
+required>
+
+<input
+type="number"
+id="price"
+placeholder="Narxi"
+required>
+
+<input
+type="number"
+id="pv"
+placeholder="PV"
+required>
+
+<input
+type="text"
+id="category"
+placeholder="Kategoriya"
+required>
+
+<input
+type="text"
+id="image"
+placeholder="Rasm URL yoki images/products/..."
+required>
+
+<textarea
+id="description"
+placeholder="Mahsulot tavsifi"
+rows="5"
+required></textarea>
+
+<button type="submit">
+
+Saqlash
+
+</button>
+
+</form>
+
+</div>
+
+<script type="module" src="../js/add-product.js"></script>
+
+</body>
+
+</html>

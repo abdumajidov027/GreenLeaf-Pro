@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenLeaf Admin Dashboard</title>
+
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <aside class="sidebar">
+
+        <h2>🌿 GreenLeaf</h2>
+
+        <ul>
+
+            <li><a href="dashboard.html">🏠 Dashboard</a></li>
+
+            <li><a href="products.html">📦 Mahsulotlar</a></li>
+
+            <li><a href="add-product.html">➕ Mahsulot qo'shish</a></li>
+
+            <li><a href="orders.html">🛒 Buyurtmalar</a></li>
+
+            <li><a href="settings.html">⚙ Sozlamalar</a></li>
+
+        </ul>
+
+    </aside>
+
+    <main class="content">
+
+        <h1>Dashboard</h1>
+
+        <div class="cards">
+
+            <div class="card">
+                <h2 id="productCount">0</h2>
+                <p>Mahsulotlar</p>
+            </div>
+
+            <div class="card">
+                <h2 id="orderCount">0</h2>
+                <p>Buyurtmalar</p>
+            </div>
+
+            <div class="card">
+                <h2 id="pvCount">0</h2>
+                <p>Jami PV</p>
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="../js/data.js"></script>
+<script src="../js/admin.js"></script>
+
+</body>
+</html>

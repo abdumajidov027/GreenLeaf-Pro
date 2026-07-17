@@ -1401,3 +1401,99 @@ color:#16a34a;
 margin-bottom:20px;
 
 }
+.add-product-container{
+    width:700px;
+    margin:50px auto;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 15px 35px rgba(0,0,0,.1);
+}
+
+.add-product-container h1{
+    margin-bottom:25px;
+}
+
+#productForm{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+#productForm input,
+#productForm textarea{
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:16px;
+}
+
+#productForm button{
+    background:#16a34a;
+    color:#fff;
+    border:none;
+    padding:15px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:17px;
+}
+
+#productForm button:hover{
+    background:#15803d;
+}
+.order-page{
+
+padding:150px 0;
+
+}
+
+#orderForm{
+
+max-width:600px;
+
+margin:auto;
+
+display:flex;
+
+flex-direction:column;
+
+gap:18px;
+
+}
+
+#orderForm input,
+#orderForm textarea{
+
+padding:15px;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+font-size:16px;
+
+}
+
+#orderForm button{
+
+padding:15px;
+
+background:#16a34a;
+
+color:white;
+
+border:none;
+
+border-radius:10px;
+
+cursor:pointer;
+
+font-size:18px;
+
+}
+
+#orderForm button:hover{
+
+background:#15803d;
+
+}
