@@ -38,7 +38,7 @@ const products = [
   {
     id: 5,
     name: "Calcium",
-    category: "Vitamin",
+    category: "Vitaminlar",
     price: 260000,
     pv: 18,
     image: "images/products/calcium.jpg",
